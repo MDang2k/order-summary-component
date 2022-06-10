@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+}
+
+
+
+.container {
+    border-radius: 20px;
+    align-self: center;
+    flex: auto;
+    width: 90%;
+    max-width: 370px;
+    margin: 10px auto 10px auto;
+    background-color: #fff;
+    padding: 0%;
+    overflow: hidden;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.text {
+    padding: 1em;
+    margin: 2em;
+}
+
+.plan_box {
+    border-radius: 10px;
+    background-color: rgba(232, 228, 228, 0.325);
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em 3em;
+}
+
+.music_ic {
+    margin-left: 1em;
+}
+
+.inner_plan_box {
+    margin-right: 4em;
+}
+
+.plan {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    color: hsl(240, 4%, 60%);
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    margin-right: 1em;
+}
+
+.btn_payment {
+    align-self: center;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    margin: 1em 3em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn_cancel {
+    padding: 10px;
+    margin-bottom: 1.5em;
+    color: hsl(240, 4%, 60%);
+}
+
+.btn_payment:hover {
+    background-color: hsl(224, 29%, 51%);
+}
+
+.btn_cancel:hover {
+    color: black;
+}
+
+.change:hover {
+    color: hsl(245, 69%, 61%);
+}
